@@ -61,8 +61,8 @@
     },
     {
       "id": "building-rest-apis-fastapi",
-      "title": "Building REST APIs with FastAPI",
-      "description": "Build a REST API with FastAPI, Pydantic validation, and CRUD endpoints.",
+      "title": "Construindo APIs REST com FastAPI",
+      "description": "Crie uma API REST com FastAPI, validação com Pydantic e operações CRUD.",
       "path": "assignments/building-rest-apis-fastapi",
       "dueDate": "2026-11-17",
       "attachments": [
@@ -74,10 +74,10 @@
       ]
     },
     {
-      "id": "building-rest-apis-fastapi",
-      "title": "Building REST APIs with FastAPI",
-      "description": "Build a REST API with FastAPI, Pydantic validation, and CRUD endpoints.",
-      "path": "assignments/building-rest-apis-fastapi",
+      "id": "task-manager-json",
+      "title": "Gerenciador de Tarefas com JSON",
+      "description": "Crie um gerenciador de tarefas em Python com persistência de dados em arquivos JSON.",
+      "path": "assignments/task-manager-json",
       "dueDate": "2026-11-17"
     }
   ]
