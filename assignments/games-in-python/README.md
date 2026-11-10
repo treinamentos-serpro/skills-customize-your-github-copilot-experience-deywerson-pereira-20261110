@@ -1,19 +1,23 @@
+# 📘 Atividade: Jogo da Forca em Python
 
-# 🎮 Desafio: Jogo da Forca
+## 🎯 Objetivo
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+Pratique manipulação de strings, listas, laços de repetição, condicionais e entrada de dados criando uma versão interativa do jogo da Forca no terminal.
 
-## 🎯 O Que Você Vai Construir
+## 📝 Tarefas
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+### 🛠️ Implementar o Jogo da Forca
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+#### Descrição
+Crie um jogo de terminal que escolha uma palavra aleatoriamente de uma lista predefinida. O jogador deve descobrir a palavra sugerindo uma letra por vez, antes de atingir o limite de tentativas incorretas.
 
-## ✅ Requisitos Obrigatórios
+#### Requisitos
+O programa concluído deve:
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Escolher aleatoriamente uma palavra de uma lista predefinida usando o módulo `random`.
+- Definir um limite de tentativas incorretas e acompanhar os palpites e erros durante a partida.
+- Exibir cada letra ainda não descoberta como um espaço reservado e revelar as letras acertadas nas posições correspondentes. Por exemplo, para `python`, após acertar `p` e `t`, exiba `p _ t _ _ _`.
+- Solicitar um palpite de uma única letra por rodada e informar se ela aparece na palavra.
+- Não descontar tentativas por entradas inválidas ou letras já tentadas; descontar uma tentativa apenas quando o jogador errar uma letra válida.
+- Exibir as tentativas incorretas restantes e continuar até que todas as letras sejam descobertas ou o limite de erros seja atingido.
+- Informar se o jogador venceu ou perdeu e revelar a palavra escolhida ao encerrar a partida.
